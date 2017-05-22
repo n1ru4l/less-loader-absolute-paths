@@ -13,3 +13,11 @@ Everything should build without errors. less should be able to resolve the impor
 
 Build fails.
 For some reason the absolute path which is passed in as a global variable into less-loader is prefixed with `./`.
+
+## Working example without less-loader
+
+I added a script that uses less via the command line. It works fine.
+
+```bash
+yarn run less
+```
