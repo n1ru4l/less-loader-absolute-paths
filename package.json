@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack --config=webpack.config.js"
+  },
   "dependencies": {
     "css-loader": "^0.28.2",
     "extract-text-webpack-plugin": "^2.1.0",
